@@ -1,760 +1,686 @@
-[02:07:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[02:07:02] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[02:07:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[02:07:02] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[02:07:02] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[02:07:05] [main/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods for mods
-[02:07:06] [main/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods/1.12.2 for mods
-[02:07:06] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.70_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[02:07:06] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[02:07:06] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
-[02:07:06] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.9.1-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[02:07:06] [main/WARN] [FML]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
-[02:07:06] [main/WARN] [FML]: The coremod ivorius.ivtoolkit.IvToolkitLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[02:07:06] [main/WARN] [FML]: The coremod IvToolkit (ivorius.ivtoolkit.IvToolkitLoadingPlugin) is not signed!
-[02:07:06] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in llibrary-1.7.9-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[02:07:06] [main/WARN] [FML]: The coremod llibrary (net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin) is not signed!
-[02:07:06] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from movingworld-1.12-6.353-full.jar
-[02:07:06] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
-[02:07:06] [main/WARN] [FML]: The coremod OTGCorePlugin (com.pg85.otg.forge.asm.excluded.launch.OTGCorePlugin) is not signed!
-[02:07:06] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SereneSeasons-1.12.2-1.2.18-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[02:07:06] [main/WARN] [FML]: The coremod sereneseasons.asm.SSLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[02:07:06] [main/WARN] [FML]: The coremod SSLoadingPlugin (sereneseasons.asm.SSLoadingPlugin) is not signed!
-[02:07:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[02:07:06] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[02:07:06] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/workspaces/PapuServer/servidor_minecraft/./mods/movingworld-1.12-6.353-full.jar Service=LaunchWrapper Env=SERVER
-[02:07:06] [main/WARN] [FML]: The coremod com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[02:07:06] [main/WARN] [FML]: The coremod MovingWorldCore (com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod) is not signed!
-[02:07:06] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[02:07:06] [main/ERROR] [mixin]: Mixin config mixins.movingworld.json does not specify "minVersion" property
-[02:07:06] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[02:07:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[02:07:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[02:07:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[02:07:07] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[02:07:07] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[02:07:07] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
-[02:07:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:10] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[02:07:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:10] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[02:07:10] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@599f571f
-[02:07:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[02:07:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:11] [main/INFO] [FML]: Found runtime patcher net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
-[02:07:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[02:07:11] [main/INFO] [FML]: Found runtime patcher com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
-[02:07:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[02:07:11] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[02:07:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[02:07:11] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[02:07:11] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[02:07:11] [main/INFO] [FML]: Patching class net/minecraft/server/MinecraftServer
-[02:07:11] [main/INFO] [FML]:    Patching method run()V
-[02:07:11] [main/WARN] [mixin]: Reference map 'movingworld.mixin.refmap.json' for mixins.movingworld.json could not be read. If this is a development environment you can ignore this message
-[02:07:12] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.server.management.PlayerList : pl
-[02:07:12] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transformPlayerList:999]: OTG-Core transforming PlayerList.transformPlayerListUpdateTimeAndWeather
-[02:07:12] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transformPlayerList:1001]: OTG-Core transforming PlayerList.setPlayerManager
-[02:07:12] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.EntityLivingBase : vp
-[02:07:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[02:07:12] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraftforge.registries.GameData : net/minecraftforge/registries/GameData
-[02:07:13] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.world.biome.Biome : anh
-[02:07:13] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityItem : acl
-[02:07:13] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityXPOrb : vm
-[02:07:14] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityFallingBlock : ack
-[02:07:14] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityTNTPrimed : acm
-[02:07:16] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityArrow : aeh
-[02:07:16] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityMinecart : afe
-[02:07:17] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityThrowable : aev
-[02:07:17] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityBoat : afd
-[02:07:17] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityShulkerBullet : aer
-[02:07:17] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityLlamaSpit : aeo
-[02:07:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[02:07:20] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[02:07:20] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[02:07:20] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[02:07:21] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[02:07:21] [Server thread/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods for mods
-[02:07:21] [Server thread/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods/1.12.2 for mods
-[02:07:22] [Server thread/INFO] [FML]: Disabling mod ambientsounds it is client side only.
-[02:07:23] [Server thread/WARN] [FML]: Mod mobends is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.1
-[02:07:25] [Server thread/INFO] [FML]: Disabling mod betteranimals it is client side only.
-[02:07:25] [Server thread/INFO] [FML]: Forge Mod Loader has identified 36 mods to load
-[02:07:25] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[02:07:25] [Server thread/WARN] [FML]: Missing English translation for biomebundle: assets/biomebundle/lang/en_us.lang
-[02:07:25] [Server thread/WARN] [FML]: Missing English translation for movingworld: assets/movingworld/lang/en_us.lang
-[02:07:25] [Server thread/WARN] [FML]: Missing English translation for roguelike: assets/roguelike/lang/en_us.lang
-[02:07:25] [Server thread/WARN] [FML]: Missing English translation for ruins: assets/ruins/lang/en_us.lang
-[02:07:25] [Server thread/WARN] [FML]: Missing English translation for worleycaves: assets/worleycaves/lang/en_us.lang
-[02:07:26] [Server thread/INFO] [FML]: FML has found a non-mod file AmbientSounds_v3.1.7_mc1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[02:07:26] [Server thread/INFO] [FML]: FML has found a non-mod file betteranimals-1.12.2-5.5.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[02:07:27] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, ivtoolkit, otgcore, com.elytradev.movingworld.common.asm.coremod, astikorcarts, baubles, betteranimalsplus, betternether, biomebundle, creativecore, davincisvessels, grimoireofgaia, waila, iceandfire, jei, journeymap, llibrary, mca, mobends, movingworld, mowziesmobs, openterraingenerator, reccomplex, roguelike, rpgloot, ruins, sereneseasons, srparasites, thaumcraft, twilightforest, varodd, worleycaves] at CLIENT
-[02:07:27] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, ivtoolkit, otgcore, com.elytradev.movingworld.common.asm.coremod, astikorcarts, baubles, betteranimalsplus, betternether, biomebundle, creativecore, davincisvessels, grimoireofgaia, waila, iceandfire, jei, journeymap, llibrary, mca, mobends, movingworld, mowziesmobs, openterraingenerator, reccomplex, roguelike, rpgloot, ruins, sereneseasons, srparasites, thaumcraft, twilightforest, varodd, worleycaves] at SERVER
-[02:07:28] [Server thread/ERROR] [FML]: The mod llibrary is expecting signature b9f30a813bee3b9dd5652c460310cfcd54f6b7ec for source llibrary-1.7.9-1.12.2.jar, however there is no signature matching that description
-[02:07:28] [Server thread/WARN] [LLibrary]: Detected invalid fingerprint for file llibrary-1.7.9-1.12.2.jar! You will not receive support with this tampered version of llibrary!
-[02:07:30] [Server thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
-[02:07:30] [Server thread/INFO] [FML]: Patching class net/minecraft/network/NetHandlerPlayServer
-[02:07:30] [Server thread/INFO] [FML]:    Patching method func_184338_a(Lnet/minecraft/network/play/client/CPacketVehicleMove;)V
-[02:07:32] [Server thread/INFO] [Various Oddities]: Registered 30 entity loot tables.
-[02:07:32] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[02:07:33] [Server thread/INFO] [FML]: Found 2430 ObjectHolder annotations
-[02:07:33] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[02:07:33] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[02:07:33] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[02:07:33] [Forge Version Check/INFO] [forge.VersionCheck]: [betteranimalsplus] Starting version check at http://modmanagement.net16.net/updateJSON5.json
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lectern`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `podium`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `egginice`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pixie_house`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jar`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_portal`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_spawner`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadidle`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadactive`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `myrmexcocoon`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforge`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgeinput`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgebrick`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:35] [Server thread/INFO] [Ice And Fire]: A raven flies from the north to the sea
-[02:07:35] [Server thread/INFO] [Ice And Fire]: A dragon whispers her name in the east
-[02:07:36] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
-[02:07:36] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
-[02:07:36] [Server thread/INFO] [mca]: Loaded 1 supporters.
-[02:07:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcstructuregenerator`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcmazegenerator`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcspawncommand`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:36] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcspawnscript`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:37] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `season_sensor`, expected `sereneseasons`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:39] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Baubles.
-[02:07:39] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
-[02:07:39] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
-[02:07:39] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
-[02:07:39] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
-[02:07:39] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Tinkers' Construct.
-[02:07:39] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Thaumcraft.
-[02:07:39] [Server thread/INFO] [grimoireofgaia]: Registering blocks...
-[02:07:39] [Server thread/INFO] [grimoireofgaia]: Block registration complete.
-[02:07:41] [Server thread/INFO] [FML]: Applying holder lookups
-[02:07:41] [Server thread/INFO] [FML]: Holder lookups applied
-[02:07:41] [Server thread/INFO] [grimoireofgaia]: Registering item blocks...
-[02:07:41] [Server thread/INFO] [grimoireofgaia]: Item block registration complete.
-[02:07:41] [Server thread/INFO] [grimoireofgaia]: Registering items...
-[02:07:42] [Server thread/INFO] [grimoireofgaia]: Item registration complete.
-[02:07:42] [Server thread/INFO] [FML]: Applying holder lookups
-[02:07:42] [Server thread/INFO] [FML]: Holder lookups applied
-[02:07:42] [Server thread/INFO] [grimoireofgaia]: Registering entities...
-[02:07:43] [Server thread/INFO] [grimoireofgaia]: Entity registration complete.
-[02:07:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[02:07:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[02:07:43] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
-[02:07:44] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
-[02:07:44] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.github.com/gegy1000/a6639456aeb8edd92cbf7cbfcf9d65d9
-[02:07:44] [Server thread/INFO] [grimoireofgaia]: Registering Sounds
-[02:07:44] [Server thread/INFO] [grimoireofgaia]: Sounds Finished
-[02:07:44] [Server thread/INFO] [FML]: Applying holder lookups
-[02:07:44] [Server thread/INFO] [FML]: Holder lookups applied
-[02:07:44] [Server thread/INFO] [FML]: Applying holder lookups
-[02:07:44] [Server thread/INFO] [FML]: Holder lookups applied
-[02:07:44] [Server thread/INFO] [FML]: Injecting itemstacks
-[02:07:44] [Server thread/INFO] [FML]: Itemstack injection complete
-[02:07:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[02:07:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[02:07:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[02:07:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[02:07:45] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[02:07:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:07:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[02:07:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:07:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:07:45] [Server thread/INFO] [grimoireofgaia]: Registering recipes...
-[02:07:45] [Server thread/INFO] [grimoireofgaia]: Recipe registration complete.
-[02:07:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:45] [Server thread/INFO] [THAUMCRAFT]: Checking for mod & oredict compatibilities
-[02:07:45] [Server thread/INFO] [THAUMCRAFT]: Adding entities to MFR safari net blacklist.
-[02:07:46] [Server thread/INFO] [davincisvessels]: Registering recipes for Davincis Vessels...
-[02:07:46] [Server thread/INFO] [davincisvessels]: Registration complete!
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_horse
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_horse
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_witch
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_witch
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_cyclops
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_cyclops
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_siren
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_siren
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_deer
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_deer
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_naga
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_naga
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_squirrel
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_squirrel
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_kobold
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_kobold
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_minotaur
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_minotaur
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_firefly
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_firefly
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_yeti
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_yeti
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_kobold
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_kobold
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_goblin
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_goblin
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_troll
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_troll
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_gryphon
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_gryphon
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_raven
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_raven
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_crab
-[02:07:46] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_crab
-[02:07:46] [Server thread/INFO] [Various Oddities]: Registered 530 potential egg inscriptions
-[02:07:46] [Server thread/INFO] [FML]: Applying holder lookups
-[02:07:46] [Server thread/INFO] [FML]: Holder lookups applied
-[02:07:46] [Server thread/INFO] [betteranimalsplus]: Overspawning lammergeiers...
-[02:07:46] [Thread-4/INFO] [OTG]: Indexing GlobalObjects folder.
-[02:07:46] [Thread-4/INFO] [OTG]: GlobalObjects folder indexed.
-[02:07:46] [Thread-4/INFO] [OTG]: Indexing WorldObjects folder for world Biome Bundle
-[02:07:46] [Server thread/INFO] [movingworld]: Setting up network...
-[02:07:46] [Server thread/INFO] [movingworld]: Setup network! com.elytradev.movingworld.repackage.com.elytradev.concrete.network.NetworkContext@1822edec
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:golden_rail
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:detector_rail
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:wooden_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:lever
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:stone_pressure_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:iron_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:wooden_pressure_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:stone_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:fence_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:tripwire_hook
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:tripwire
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:wooden_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:unpowered_comparator
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:powered_comparator
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:activator_rail
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:spruce_fence_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:birch_fence_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:jungle_fence_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:dark_oak_fence_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:acacia_fence_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:spruce_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:birch_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:jungle_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:acacia_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:dark_oak_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: minecraft:observer
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:stalagnate_planks_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:stalagnate_planks_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:stalagnate_planks_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:reeds_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:reeds_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:reeds_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:cincinnasite_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:bone_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:bone_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:bone_reed_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: betternether:bone_cincinnasite_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: thaumcraft:activator_rail
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:twilight_oak_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:twilight_oak_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:twilight_oak_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:twilight_oak_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:canopy_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:canopy_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:canopy_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:canopy_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mangrove_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mangrove_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mangrove_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mangrove_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:dark_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:dark_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:dark_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:dark_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:time_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:time_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:time_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:time_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:trans_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:trans_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:trans_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:trans_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mine_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mine_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mine_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:mine_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:sort_button
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:sort_door
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:sort_gate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: twilightforest:sort_plate
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: varodd:world_guard
-[02:07:46] [Server thread/INFO] [movingworld]: Found powered block with name: davincisvessels:crate_wood
-[02:07:46] [Server thread/INFO] [davincisvessels]: Setting up network...
-[02:07:46] [Server thread/INFO] [davincisvessels]: Setup network! com.elytradev.movingworld.repackage.com.elytradev.concrete.network.NetworkContext@756f34aa
-[02:07:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archihelm`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archigauge`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archicrate`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archiengine`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archianchor`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archisecuredbed`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
-[02:07:47] [Thread-4/INFO] [OTG]: WorldObjects folder for world Biome Bundle indexed.
-[02:07:47] [Thread-4/INFO] [OTG]: All CustomObject files indexed.
-[02:07:47] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(2, 1) invalid, 1 smaller than 2
-[02:07:47] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(4, 1) invalid, 1 smaller than 4
-[02:07:47] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(10, 1) invalid, 1 smaller than 10
-[02:07:47] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(9, 1) invalid, 1 smaller than 9
-[02:07:47] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(3, 2) invalid, 2 smaller than 3
-[02:07:47] [Server thread/INFO] [Ice And Fire]: The watcher waits on the northern wall
-[02:07:47] [Server thread/INFO] [Ice And Fire]: A daughter picks up a warrior's sword
-[02:07:47] [Server thread/INFO] [FML]: Injecting itemstacks
-[02:07:47] [Server thread/INFO] [FML]: Itemstack injection complete
-[02:07:47] [Server thread/INFO] [betteranimalsplus]: Crazy bird creation complete.
-[02:07:48] [Server thread/INFO] [Ice And Fire]: A brother bound to a love he must hide
-[02:07:48] [Server thread/INFO] [Ice And Fire]: The younger's armor is worn in the mind
-[02:07:48] [Server thread/INFO] [Ice And Fire]: A cold iron throne holds a boy barely grown
-[02:07:48] [Server thread/INFO] [Ice And Fire]: And now it is known
-[02:07:48] [Server thread/INFO] [Ice And Fire]: A claim to the prize, a crown laced in lies
-[02:07:48] [Server thread/INFO] [Ice And Fire]: You win or you die
-[02:07:48] [Server thread/INFO] [Ice And Fire]: Damn season 8 really sucked didn't it
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:48] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:elder_guardian
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:wither_skeleton
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:stray
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:husk
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie_villager
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:skeleton_horse
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie_horse
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:armor_stand
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:donkey
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:mule
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:evocation_illager
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:vex
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:vindication_illager
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:illusion_illager
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:creeper
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:skeleton
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:spider
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:giant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:slime
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:ghast
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie_pigman
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:enderman
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:cave_spider
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:silverfish
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:blaze
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:magma_cube
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:ender_dragon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:wither
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:bat
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:witch
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:endermite
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:guardian
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:shulker
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:pig
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:sheep
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:cow
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:chicken
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:squid
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:wolf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:mooshroom
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:snowman
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:ocelot
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:villager_golem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:horse
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:rabbit
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:polar_bear
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:llama
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:parrot
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:villager
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betternether:firefly
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:kobold
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:uberwidren
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:pegasus
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:pegasus_chest
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:goblin
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:troll
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:ogre
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:gryphon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:monkey
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:mimic
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:giant_crab
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:raven
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:scorpion
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:scorpion_giant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:rat
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:rat_giant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:giant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:giant_zombie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:skull
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:player_skull
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:bulette
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:lim_cartographer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:lim_merchant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:zombie_kobold
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:worg
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:warg
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:nether_golem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:end_golem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:crab
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:megaraptor
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:velociraptor
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:tyrannosaurus
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:spyglass_sensor
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:summon_wolf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:scarecrow
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:brownbear
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:blackbear
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:deer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:lammergeier
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:feralwolf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:coyote
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:fox
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:tarantula
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:hirschgeist
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:goat
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:jellyfish
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:pheasant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:reindeer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:boar
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:squirrel
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:songbird
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:badger
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:lamprey
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:nautilus
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:crab
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:horseshoecrab
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:shark
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:kermodebear
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:gorgon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:creeper_girl
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:slime_girl
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ender_girl
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:trader
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:holstaurus
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:weresheep
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mandragora
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mimic
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_beholder
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_ender_dragon_girl
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_gorgon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_minotaur
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_sphinx
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_valkyrie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_vampire
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:debug_mob
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ant_hill
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ant_ranger
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:anubis
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:arachne
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:banshee
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:baphomet
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:bee
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:beholder
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:bone_knight
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:butler
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:campfire
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cecaelia
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:centaur
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:chest
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cobble_golem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cobblestone_golem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:creep
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cyan_flower
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:deathword
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dhampir
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dryad
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dullahan
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dwarf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ender_dragon_girl
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ender_eye
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:flesh_lich
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:gelatinous_slime
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:goblin
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:goblin_feral
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mite
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:gryphon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:harpy
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:harpy_wizard
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:horse
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:hunter
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:illager_fire
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:illager_inquisitor
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:kikimora
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:kobold
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:matango
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mermaid
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:minotaur
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:minotaurus
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cyclops
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mummy
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:naga
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:nine_tails
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:oni
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:orc
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:satyress
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:selkie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:shaman
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sharko
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:siren
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sludge_girl
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sphinx
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spriggan
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sporeling
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:succubus
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:toad
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:valkyrie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:vase
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:vase_nether
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:vampire
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:werecat
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:witch
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:wither_cow
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:yeti
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:yuki-onna
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dragonegg
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dragonskull
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:firedragon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:icedragon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:snowvillager
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:hippogryph
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:stonestatue
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:gorgon
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_pixie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:cyclops
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:siren
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:hippocampus
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:deathworm
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_cockatrice
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:stymphalianbird
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_troll
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_worker
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_soldier
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_sentinel
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_royal
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_queen
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_egg
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:amphithere
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:seaserpent
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_swarmer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_mob_skull
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_thrall
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_ghoul
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_beast
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_scuttler
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_lich
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_knight
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_horse
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_hydra
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:foliaath
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:baby_foliaath
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:ferrous_wroughtnaut
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoan_barakoana
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoana
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoaya
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoan_player
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barako
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:frostmaw
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:grottol
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:lantern
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:naga
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_bigspider
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_human
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_cow
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_sheep
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_wolf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_pig
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_villager
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_adventurer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_horse
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_bear
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_enderman
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_dragone
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_sheephead
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_wolfhead
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_cowhead
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_pighead
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_villagerhead
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_horsehead
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_humanhead
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:incompleteform_small
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:incompleteform_medium
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:carrier_heavy
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:buglin
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:carrier_flying
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:rupter
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:movingflesh
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:worker
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_si
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_sii
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_siii
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_siv
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:kyphosis
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sentry
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:host
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:heed
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:crux
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_longarms
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_manducater
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_reeker
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_yelloweye
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_summoner
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_bolster
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_arachnida
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_devourer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_longarms
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_manducater
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_reeker
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_yelloweye
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_summoner
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_bolster
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_arachnida
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:overseer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:vigilante
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:warden
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:bomber_light
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:marauder
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:grunt
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_dreadnaut
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_overlord
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_pod
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_dreadnaut_ten
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:homming
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:biomass
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:tendril
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistportalgreater
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistportallesser
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:turretbasic
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:turretadvanced
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:arcanebore
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:golem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchwarden
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchgolem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistleader
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintaclegiant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:brainyzombie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:giantbrainyzombie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:wisp
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:firebat
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:spellbat
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:pech
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:mindspider
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchguardian
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistknight
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistcleric
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchcrab
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:inhabitedzombie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:thaumslime
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintcrawler
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintacle
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintacletiny
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintswarm
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintseed
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintseedprime
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:wild_boar
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:bighorn_sheep
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:deer
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:redcap
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:swarm_spider
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:naga
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:skeleton_druid
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hostile_wolf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:wraith
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hedge_spider
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hydra
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:lich
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:penguin
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:lich_minion
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:loyal_zombie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tiny_bird
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:squirrel
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:bunny
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:raven
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:quest_ram
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:kobold
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:mosquito_swarm
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:death_tome
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:minotaur
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:minoshroom
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:fire_beetle
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:slime_beetle
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:pinch_beetle
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:maze_slime
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:redcap_sapper
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:mist_wolf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:king_spider
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:firefly
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:mini_ghast
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_ghast
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_golem
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_termite
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_broodling
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:ur_ghast
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:blockchain_goblin
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:goblin_knight_upper
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:goblin_knight_lower
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:helmet_crab
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:knight_phantom
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:yeti
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:yeti_alpha
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:winter_wolf
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:snow_guardian
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:stable_ice_core
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:unstable_ice_core
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:snow_queen
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:troll
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:giant_miner
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:armored_giant
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:ice_crystal
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:harbinger_cube
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:adherent
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:roving_cube
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:castle_guardian
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hydra_head
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:boggard
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:rising_zombie
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mca:entityvillagermca
-[02:07:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mca:grimreapermca
-[02:07:52] [Server thread/INFO] [grimoireofgaia]: Registering Item Aspects
-[02:07:52] [Server thread/INFO] [grimoireofgaia]: Registering Entity Aspects
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 22 research entries from thaumcraft:research/alchemy
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 5 research entries from thaumcraft:research/eldritch
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/basics
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 23 research entries from thaumcraft:research/auromancy
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 12 research entries from thaumcraft:research/scans
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/artifice
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 17 research entries from thaumcraft:research/infusion
-[02:07:53] [Server thread/INFO] [THAUMCRAFT]: Loaded 29 research entries from thaumcraft:research/golemancy
-[02:07:53] [Server thread/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraftforge.common.DimensionManager : net/minecraftforge/common/DimensionManager
-[02:07:53] [Server thread/INFO] [Waila]: Starting Waila...
-[02:07:53] [Server thread/INFO] [Waila]: Gathering annotated plugins...
-[02:07:53] [Server thread/INFO] [Waila]: Gathering wrapped IMC plugins...
-[02:07:53] [Server thread/INFO] [Waila]: Registering plugins...
-[02:07:53] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
-[02:07:53] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
-[02:07:53] [Server thread/INFO] [Waila]: Registering plugin at com.github.alexthe666.iceandfire.compat.waila.PluginIceAndFire
-[02:07:53] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
-[02:07:53] [Server thread/INFO] [Waila]: Starting Waila took 112.5 ms
-[02:07:54] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 36 mods
-[02:07:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[02:07:54] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod carbonconfig which appears to be missing, things may not work well
-[02:07:54] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod chunkpregenerator which appears to be missing, things may not work well
-[02:07:54] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[02:07:56] [Server thread/INFO] [FML]: Applying holder lookups
-[02:07:56] [Server thread/INFO] [FML]: Holder lookups applied
-[02:07:56] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6951feb2)
-[02:07:56] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager]: Couldn't load loot table varodd:chests/loot_art from jar:file:/workspaces/PapuServer/servidor_minecraft/./mods/varodd-1.12.2-5.2.jar!/assets/varodd/loot_tables/chests/loot_art.json
+[14:17:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:17:24] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:17:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:17:24] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[14:17:24] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[14:17:24] [main/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods for mods
+[14:17:24] [main/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods/1.12.2 for mods
+[14:17:24] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.70_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[14:17:24] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[14:17:24] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[14:17:24] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.9.1-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[14:17:24] [main/WARN] [FML]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
+[14:17:24] [main/WARN] [FML]: The coremod ivorius.ivtoolkit.IvToolkitLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[14:17:24] [main/WARN] [FML]: The coremod IvToolkit (ivorius.ivtoolkit.IvToolkitLoadingPlugin) is not signed!
+[14:17:24] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in llibrary-1.7.9-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[14:17:24] [main/WARN] [FML]: The coremod llibrary (net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin) is not signed!
+[14:17:24] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from movingworld-1.12-6.353-full.jar
+[14:17:24] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[14:17:24] [main/WARN] [FML]: The coremod OTGCorePlugin (com.pg85.otg.forge.asm.excluded.launch.OTGCorePlugin) is not signed!
+[14:17:24] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in SereneSeasons-1.12.2-1.2.18-universal.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[14:17:24] [main/WARN] [FML]: The coremod sereneseasons.asm.SSLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[14:17:24] [main/WARN] [FML]: The coremod SSLoadingPlugin (sereneseasons.asm.SSLoadingPlugin) is not signed!
+[14:17:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:17:24] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[14:17:24] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/workspaces/PapuServer/servidor_minecraft/./mods/movingworld-1.12-6.353-full.jar Service=LaunchWrapper Env=SERVER
+[14:17:24] [main/WARN] [FML]: The coremod com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[14:17:24] [main/WARN] [FML]: The coremod MovingWorldCore (com.elytradev.movingworld.common.asm.coremod.MovingWorldCoreMod) is not signed!
+[14:17:24] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[14:17:24] [main/ERROR] [mixin]: Mixin config mixins.movingworld.json does not specify "minVersion" property
+[14:17:24] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[14:17:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:17:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:17:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:17:24] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[14:17:24] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[14:17:24] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[14:17:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[14:17:27] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@599f571f
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [FML]: Found runtime patcher net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:17:27] [main/INFO] [FML]: Found runtime patcher com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+[14:17:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:17:27] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:17:27] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:17:27] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[14:17:27] [main/INFO] [FML]: Patching class net/minecraft/server/MinecraftServer
+[14:17:27] [main/INFO] [FML]:    Patching method run()V
+[14:17:27] [main/WARN] [mixin]: Reference map 'movingworld.mixin.refmap.json' for mixins.movingworld.json could not be read. If this is a development environment you can ignore this message
+[14:17:28] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.server.management.PlayerList : pl
+[14:17:28] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transformPlayerList:999]: OTG-Core transforming PlayerList.transformPlayerListUpdateTimeAndWeather
+[14:17:28] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transformPlayerList:1001]: OTG-Core transforming PlayerList.setPlayerManager
+[14:17:28] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.EntityLivingBase : vp
+[14:17:28] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[14:17:28] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraftforge.registries.GameData : net/minecraftforge/registries/GameData
+[14:17:29] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.world.biome.Biome : anh
+[14:17:29] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityItem : acl
+[14:17:29] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityXPOrb : vm
+[14:17:29] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityFallingBlock : ack
+[14:17:29] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityTNTPrimed : acm
+[14:17:30] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityArrow : aeh
+[14:17:30] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityMinecart : afe
+[14:17:31] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityThrowable : aev
+[14:17:31] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.item.EntityBoat : afd
+[14:17:31] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityShulkerBullet : aer
+[14:17:31] [main/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraft.entity.projectile.EntityLlamaSpit : aeo
+[14:17:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[14:17:33] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[14:17:33] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:17:33] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[14:17:33] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[14:17:34] [Server thread/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods for mods
+[14:17:34] [Server thread/INFO] [FML]: Searching /workspaces/PapuServer/servidor_minecraft/./mods/1.12.2 for mods
+[14:17:34] [Server thread/INFO] [FML]: Disabling mod ambientsounds it is client side only.
+[14:17:35] [Server thread/WARN] [FML]: Mod mobends is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.1
+[14:17:36] [Server thread/INFO] [FML]: Disabling mod betteranimals it is client side only.
+[14:17:36] [Server thread/INFO] [FML]: Forge Mod Loader has identified 36 mods to load
+[14:17:36] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[14:17:36] [Server thread/WARN] [FML]: Missing English translation for biomebundle: assets/biomebundle/lang/en_us.lang
+[14:17:36] [Server thread/WARN] [FML]: Missing English translation for movingworld: assets/movingworld/lang/en_us.lang
+[14:17:36] [Server thread/WARN] [FML]: Missing English translation for roguelike: assets/roguelike/lang/en_us.lang
+[14:17:36] [Server thread/WARN] [FML]: Missing English translation for ruins: assets/ruins/lang/en_us.lang
+[14:17:36] [Server thread/WARN] [FML]: Missing English translation for worleycaves: assets/worleycaves/lang/en_us.lang
+[14:17:36] [Server thread/INFO] [FML]: FML has found a non-mod file AmbientSounds_v3.1.7_mc1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[14:17:36] [Server thread/INFO] [FML]: FML has found a non-mod file betteranimals-1.12.2-5.5.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[14:17:36] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, ivtoolkit, otgcore, com.elytradev.movingworld.common.asm.coremod, astikorcarts, baubles, betteranimalsplus, betternether, biomebundle, creativecore, davincisvessels, grimoireofgaia, waila, iceandfire, jei, journeymap, llibrary, mca, mobends, movingworld, mowziesmobs, openterraingenerator, reccomplex, roguelike, rpgloot, ruins, sereneseasons, srparasites, thaumcraft, twilightforest, varodd, worleycaves] at CLIENT
+[14:17:36] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, ivtoolkit, otgcore, com.elytradev.movingworld.common.asm.coremod, astikorcarts, baubles, betteranimalsplus, betternether, biomebundle, creativecore, davincisvessels, grimoireofgaia, waila, iceandfire, jei, journeymap, llibrary, mca, mobends, movingworld, mowziesmobs, openterraingenerator, reccomplex, roguelike, rpgloot, ruins, sereneseasons, srparasites, thaumcraft, twilightforest, varodd, worleycaves] at SERVER
+[14:17:37] [Server thread/ERROR] [FML]: The mod llibrary is expecting signature b9f30a813bee3b9dd5652c460310cfcd54f6b7ec for source llibrary-1.7.9-1.12.2.jar, however there is no signature matching that description
+[14:17:37] [Server thread/WARN] [LLibrary]: Detected invalid fingerprint for file llibrary-1.7.9-1.12.2.jar! You will not receive support with this tampered version of llibrary!
+[14:17:38] [Server thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[14:17:38] [Server thread/INFO] [FML]: Patching class net/minecraft/network/NetHandlerPlayServer
+[14:17:38] [Server thread/INFO] [FML]:    Patching method func_184338_a(Lnet/minecraft/network/play/client/CPacketVehicleMove;)V
+[14:17:40] [Server thread/INFO] [Various Oddities]: Registered 30 entity loot tables.
+[14:17:40] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:17:40] [Server thread/INFO] [FML]: Found 2430 ObjectHolder annotations
+[14:17:40] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:17:40] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:17:40] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:17:40] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:17:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[14:17:41] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[14:17:41] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[14:17:41] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.github.com/gegy1000/a6639456aeb8edd92cbf7cbfcf9d65d9
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lectern`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `podium`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `egginice`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pixie_house`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jar`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Forge Version Check/INFO] [forge.VersionCheck]: [betteranimalsplus] Starting version check at http://modmanagement.net16.net/updateJSON5.json
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_portal`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_spawner`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadidle`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadactive`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `myrmexcocoon`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforge`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgeinput`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgebrick`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/INFO] [Ice And Fire]: A raven flies from the north to the sea
+[14:17:42] [Server thread/INFO] [Ice And Fire]: A dragon whispers her name in the east
+[14:17:42] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
+[14:17:42] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
+[14:17:42] [Server thread/INFO] [mca]: Loaded 1 supporters.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcstructuregenerator`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcmazegenerator`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcspawncommand`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rcspawnscript`, expected `reccomplex`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:42] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `season_sensor`, expected `sereneseasons`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:44] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Baubles.
+[14:17:44] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
+[14:17:44] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
+[14:17:44] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
+[14:17:44] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
+[14:17:44] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Tinkers' Construct.
+[14:17:44] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Thaumcraft.
+[14:17:44] [Server thread/INFO] [grimoireofgaia]: Registering blocks...
+[14:17:44] [Server thread/INFO] [grimoireofgaia]: Block registration complete.
+[14:17:46] [Server thread/INFO] [FML]: Applying holder lookups
+[14:17:46] [Server thread/INFO] [FML]: Holder lookups applied
+[14:17:46] [Server thread/INFO] [grimoireofgaia]: Registering items...
+[14:17:46] [Server thread/INFO] [grimoireofgaia]: Item registration complete.
+[14:17:46] [Server thread/INFO] [grimoireofgaia]: Registering item blocks...
+[14:17:46] [Server thread/INFO] [grimoireofgaia]: Item block registration complete.
+[14:17:46] [Server thread/INFO] [FML]: Applying holder lookups
+[14:17:46] [Server thread/INFO] [FML]: Holder lookups applied
+[14:17:46] [Server thread/INFO] [grimoireofgaia]: Registering entities...
+[14:17:46] [Server thread/INFO] [grimoireofgaia]: Entity registration complete.
+[14:17:47] [Server thread/INFO] [grimoireofgaia]: Registering Sounds
+[14:17:47] [Server thread/INFO] [grimoireofgaia]: Sounds Finished
+[14:17:47] [Server thread/INFO] [FML]: Applying holder lookups
+[14:17:47] [Server thread/INFO] [FML]: Holder lookups applied
+[14:17:47] [Server thread/INFO] [FML]: Applying holder lookups
+[14:17:47] [Server thread/INFO] [FML]: Holder lookups applied
+[14:17:47] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:17:47] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:17:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[14:17:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[14:17:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[14:17:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[14:17:47] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[14:17:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:17:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[14:17:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:17:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:17:48] [Server thread/INFO] [grimoireofgaia]: Registering recipes...
+[14:17:48] [Server thread/INFO] [grimoireofgaia]: Recipe registration complete.
+[14:17:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:48] [Server thread/INFO] [THAUMCRAFT]: Checking for mod & oredict compatibilities
+[14:17:48] [Server thread/INFO] [THAUMCRAFT]: Adding entities to MFR safari net blacklist.
+[14:17:48] [Server thread/INFO] [davincisvessels]: Registering recipes for Davincis Vessels...
+[14:17:48] [Server thread/INFO] [davincisvessels]: Registration complete!
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_horse
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_horse
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_witch
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_witch
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_cyclops
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_cyclops
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_siren
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_siren
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_deer
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_deer
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_naga
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_naga
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_squirrel
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_squirrel
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_kobold
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_kobold
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_minotaur
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_minotaur
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_firefly
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_firefly
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_yeti
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_yeti
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_kobold
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_kobold
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_goblin
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_goblin
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_troll
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_troll
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_gryphon
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_gryphon
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_raven
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_raven
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_avoid_crab
+[14:17:48] [Server thread/ERROR] [Various Oddities]: Inscription with duplicate name registered! varodd:ai_attack_crab
+[14:17:48] [Server thread/INFO] [Various Oddities]: Registered 530 potential egg inscriptions
+[14:17:48] [Server thread/INFO] [FML]: Applying holder lookups
+[14:17:48] [Server thread/INFO] [FML]: Holder lookups applied
+[14:17:48] [Server thread/INFO] [betteranimalsplus]: Overspawning lammergeiers...
+[14:17:48] [Thread-4/INFO] [OTG]: Indexing GlobalObjects folder.
+[14:17:48] [Thread-4/INFO] [OTG]: GlobalObjects folder indexed.
+[14:17:48] [Thread-4/INFO] [OTG]: Indexing WorldObjects folder for world Biome Bundle
+[14:17:48] [Server thread/INFO] [movingworld]: Setting up network...
+[14:17:48] [Server thread/INFO] [movingworld]: Setup network! com.elytradev.movingworld.repackage.com.elytradev.concrete.network.NetworkContext@4e2972af
+[14:17:48] [Server thread/INFO] [davincisvessels]: Setting up network...
+[14:17:48] [Server thread/INFO] [davincisvessels]: Setup network! com.elytradev.movingworld.repackage.com.elytradev.concrete.network.NetworkContext@3b98383f
+[14:17:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archihelm`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archigauge`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archicrate`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archiengine`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archianchor`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archisecuredbed`, expected `davincisvessels`. This could be a intended override, but in most cases indicates a broken mod.
+[14:17:48] [Thread-4/INFO] [OTG]: WorldObjects folder for world Biome Bundle indexed.
+[14:17:48] [Thread-4/INFO] [OTG]: All CustomObject files indexed.
+[14:17:48] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(2, 1) invalid, 1 smaller than 2
+[14:17:48] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(4, 1) invalid, 1 smaller than 4
+[14:17:49] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(10, 1) invalid, 1 smaller than 10
+[14:17:49] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(9, 1) invalid, 1 smaller than 9
+[14:17:49] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(3, 2) invalid, 2 smaller than 3
+[14:17:49] [Server thread/INFO] [Ice And Fire]: The watcher waits on the northern wall
+[14:17:49] [Server thread/INFO] [Ice And Fire]: A daughter picks up a warrior's sword
+[14:17:50] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:17:50] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:17:50] [Server thread/INFO] [betteranimalsplus]: Crazy bird creation complete.
+[14:17:50] [Server thread/INFO] [Ice And Fire]: A brother bound to a love he must hide
+[14:17:50] [Server thread/INFO] [Ice And Fire]: The younger's armor is worn in the mind
+[14:17:50] [Server thread/INFO] [Ice And Fire]: A cold iron throne holds a boy barely grown
+[14:17:50] [Server thread/INFO] [Ice And Fire]: And now it is known
+[14:17:50] [Server thread/INFO] [Ice And Fire]: A claim to the prize, a crown laced in lies
+[14:17:50] [Server thread/INFO] [Ice And Fire]: You win or you die
+[14:17:50] [Server thread/INFO] [Ice And Fire]: Damn season 8 really sucked didn't it
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:elder_guardian
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:wither_skeleton
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:stray
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:husk
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie_villager
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:skeleton_horse
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie_horse
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:armor_stand
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:donkey
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:mule
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:evocation_illager
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:vex
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:vindication_illager
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:illusion_illager
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:creeper
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:skeleton
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:spider
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:giant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:slime
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:ghast
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:zombie_pigman
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:enderman
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:cave_spider
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:silverfish
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:blaze
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:magma_cube
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:ender_dragon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:wither
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:bat
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:witch
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:endermite
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:guardian
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:shulker
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:pig
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:sheep
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:cow
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:chicken
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:squid
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:wolf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:mooshroom
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:snowman
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:ocelot
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:villager_golem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:horse
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:rabbit
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:polar_bear
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:llama
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:parrot
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :minecraft:villager
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betternether:firefly
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:kobold
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:uberwidren
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:pegasus
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:pegasus_chest
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:goblin
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:troll
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:ogre
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:gryphon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:monkey
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:mimic
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:giant_crab
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:raven
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:scorpion
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:scorpion_giant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:rat
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:rat_giant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:giant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:giant_zombie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:skull
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:player_skull
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:bulette
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:lim_cartographer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:lim_merchant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:zombie_kobold
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:worg
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:warg
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:nether_golem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:end_golem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:crab
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:megaraptor
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:velociraptor
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:tyrannosaurus
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:spyglass_sensor
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:summon_wolf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :varodd:scarecrow
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:brownbear
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:blackbear
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:deer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:lammergeier
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:feralwolf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:coyote
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:fox
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:tarantula
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:hirschgeist
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:goat
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:jellyfish
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:pheasant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:reindeer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:boar
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:squirrel
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:songbird
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:badger
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:lamprey
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:nautilus
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:crab
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:horseshoecrab
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:shark
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :betteranimalsplus:kermodebear
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:gorgon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:creeper_girl
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:slime_girl
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ender_girl
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:trader
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:holstaurus
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:weresheep
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mandragora
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mimic
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_beholder
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_ender_dragon_girl
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_gorgon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_minotaur
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_sphinx
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_valkyrie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spawner_vampire
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:debug_mob
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ant_hill
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ant_ranger
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:anubis
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:arachne
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:banshee
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:baphomet
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:bee
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:beholder
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:bone_knight
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:butler
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:campfire
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cecaelia
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:centaur
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:chest
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cobble_golem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cobblestone_golem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:creep
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cyan_flower
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:deathword
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dhampir
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dryad
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dullahan
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:dwarf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ender_dragon_girl
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:ender_eye
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:flesh_lich
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:gelatinous_slime
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:goblin
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:goblin_feral
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mite
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:gryphon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:harpy
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:harpy_wizard
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:horse
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:hunter
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:illager_fire
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:illager_inquisitor
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:kikimora
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:kobold
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:matango
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mermaid
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:minotaur
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:minotaurus
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:cyclops
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:mummy
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:naga
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:nine_tails
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:oni
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:orc
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:satyress
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:selkie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:shaman
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sharko
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:siren
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sludge_girl
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sphinx
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:spriggan
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:sporeling
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:succubus
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:toad
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:valkyrie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:vase
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:vase_nether
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:vampire
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:werecat
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:witch
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:wither_cow
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:yeti
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :grimoireofgaia:yuki-onna
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dragonegg
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dragonskull
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:firedragon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:icedragon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:snowvillager
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:hippogryph
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:stonestatue
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:gorgon
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_pixie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:cyclops
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:siren
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:hippocampus
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:deathworm
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_cockatrice
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:stymphalianbird
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_troll
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_worker
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_soldier
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_sentinel
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_royal
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_queen
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_egg
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:amphithere
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:seaserpent
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:myrmex_swarmer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_mob_skull
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_thrall
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_ghoul
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_beast
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_scuttler
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_lich
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_knight
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:dread_horse
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :iceandfire:if_hydra
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:foliaath
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:baby_foliaath
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:ferrous_wroughtnaut
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoan_barakoana
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoana
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoaya
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barakoan_player
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:barako
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:frostmaw
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:grottol
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:lantern
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mowziesmobs:naga
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_bigspider
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_human
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_cow
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_sheep
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_wolf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_pig
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_villager
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_adventurer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_horse
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_bear
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_enderman
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_dragone
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_sheephead
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_wolfhead
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_cowhead
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_pighead
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_villagerhead
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_horsehead
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sim_humanhead
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:incompleteform_small
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:incompleteform_medium
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:carrier_heavy
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:buglin
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:carrier_flying
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:rupter
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:movingflesh
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:worker
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_si
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_sii
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_siii
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:beckon_siv
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:kyphosis
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:sentry
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:host
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:heed
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:crux
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_longarms
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_manducater
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_reeker
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_yelloweye
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_summoner
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_bolster
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_arachnida
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:pri_devourer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_longarms
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_manducater
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_reeker
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_yelloweye
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_summoner
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_bolster
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:ada_arachnida
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:overseer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:vigilante
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:warden
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:bomber_light
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:marauder
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:grunt
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_dreadnaut
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_overlord
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_pod
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:anc_dreadnaut_ten
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:homming
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:biomass
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :srparasites:tendril
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistportalgreater
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistportallesser
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:turretbasic
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:turretadvanced
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:arcanebore
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:golem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchwarden
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchgolem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistleader
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintaclegiant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:brainyzombie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:giantbrainyzombie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:wisp
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:firebat
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:spellbat
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:pech
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:mindspider
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchguardian
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistknight
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:cultistcleric
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:eldritchcrab
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:inhabitedzombie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:thaumslime
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintcrawler
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintacle
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintacletiny
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintswarm
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintseed
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :thaumcraft:taintseedprime
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:wild_boar
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:bighorn_sheep
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:deer
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:redcap
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:swarm_spider
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:naga
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:skeleton_druid
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hostile_wolf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:wraith
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hedge_spider
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hydra
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:lich
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:penguin
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:lich_minion
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:loyal_zombie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tiny_bird
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:squirrel
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:bunny
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:raven
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:quest_ram
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:kobold
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:mosquito_swarm
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:death_tome
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:minotaur
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:minoshroom
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:fire_beetle
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:slime_beetle
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:pinch_beetle
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:maze_slime
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:redcap_sapper
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:mist_wolf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:king_spider
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:firefly
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:mini_ghast
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_ghast
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_golem
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_termite
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:tower_broodling
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:ur_ghast
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:blockchain_goblin
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:goblin_knight_upper
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:goblin_knight_lower
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:helmet_crab
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:knight_phantom
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:yeti
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:yeti_alpha
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:winter_wolf
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:snow_guardian
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:stable_ice_core
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:unstable_ice_core
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:snow_queen
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:troll
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:giant_miner
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:armored_giant
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:ice_crystal
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:harbinger_cube
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:adherent
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:roving_cube
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:castle_guardian
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:hydra_head
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:boggard
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :twilightforest:rising_zombie
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mca:entityvillagermca
+[14:17:51] [Server thread/INFO] [FML]: [RPGLoot] - Registering :mca:grimreapermca
+[14:17:52] [Server thread/INFO] [grimoireofgaia]: Registering Item Aspects
+[14:17:52] [Server thread/INFO] [grimoireofgaia]: Registering Entity Aspects
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 22 research entries from thaumcraft:research/alchemy
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 5 research entries from thaumcraft:research/eldritch
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/basics
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 23 research entries from thaumcraft:research/auromancy
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 12 research entries from thaumcraft:research/scans
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/artifice
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 17 research entries from thaumcraft:research/infusion
+[14:17:52] [Server thread/INFO] [THAUMCRAFT]: Loaded 29 research entries from thaumcraft:research/golemancy
+[14:17:52] [Server thread/INFO] [STDOUT]: [com.pg85.otg.forge.asm.excluded.OTGClassTransformer:transform:91]: OTG-Core transforming: net.minecraftforge.common.DimensionManager : net/minecraftforge/common/DimensionManager
+[14:17:52] [Server thread/INFO] [Waila]: Starting Waila...
+[14:17:52] [Server thread/INFO] [Waila]: Gathering annotated plugins...
+[14:17:52] [Server thread/INFO] [Waila]: Gathering wrapped IMC plugins...
+[14:17:52] [Server thread/INFO] [Waila]: Registering plugins...
+[14:17:52] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[14:17:52] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[14:17:52] [Server thread/INFO] [Waila]: Registering plugin at com.github.alexthe666.iceandfire.compat.waila.PluginIceAndFire
+[14:17:52] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
+[14:17:52] [Server thread/INFO] [Waila]: Starting Waila took 72.68 ms
+[14:17:52] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 36 mods
+[14:17:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[14:17:52] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[14:17:54] [Server thread/INFO] [FML]: Applying holder lookups
+[14:17:54] [Server thread/INFO] [FML]: Holder lookups applied
+[14:17:54] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@2d23e142)
+[14:17:54] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager]: Couldn't load loot table varodd:chests/loot_art from jar:file:/workspaces/PapuServer/servidor_minecraft/./mods/varodd-1.12.2-5.2.jar!/assets/varodd/loot_tables/chests/loot_art.json
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'varodd:wood_pillar'
 	at net.minecraft.util.JsonUtils.func_188172_b(SourceFile:124) ~[rc.class:?]
 	at net.minecraft.util.JsonUtils.func_188180_i(SourceFile:135) ~[rc.class:?]
@@ -806,43 +732,39 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-[02:07:57] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 777 advancements
-[02:07:57] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 0
-[02:07:57] [Server thread/INFO] [twilightforest]: Loaded a world with the tfEnforcedProgression game rule not defined. Defining it.
-[02:07:57] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6951feb2)
-[02:07:57] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world -1
-[02:07:58] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6951feb2)
-[02:07:58] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 1
-[02:07:58] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@6951feb2)
-[02:07:58] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 7
-[02:07:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[02:07:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[02:08:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%
-[02:08:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%
-[02:08:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 84%
-[02:08:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (8.595s)! For help, type "help" or "?"
-[02:08:04] [Server thread/INFO] [journeymap]: global (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.global.config
-[02:08:04] [Server thread/INFO] [journeymap]: global (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.global.config
-[02:08:04] [Server thread/INFO] [journeymap]: default (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.default.config
-[02:08:04] [Server thread/INFO] [journeymap]: default (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.default.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim0 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim0.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim0 (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.dim0.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim-1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim-1.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim-1 (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.dim-1.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim1.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim1 (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.dim1.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim7 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim7.config
-[02:08:04] [Server thread/INFO] [journeymap]: dim7 (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.dim7.config
-[02:08:05] [Thread-5/INFO] [THAUMCRAFT]: Starting aura thread for dim 0
-[02:08:05] [Thread-6/INFO] [THAUMCRAFT]: Starting aura thread for dim -1
-[02:08:05] [Thread-7/INFO] [THAUMCRAFT]: Starting aura thread for dim 1
-[02:08:05] [Thread-8/INFO] [THAUMCRAFT]: Starting aura thread for dim 7
-[02:08:05] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -1
-[02:08:05] [Server thread/INFO] [FML]: Unloading dimension -1
-[02:08:05] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 1
-[02:08:05] [Server thread/INFO] [FML]: Unloading dimension 1
-[02:08:05] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 7
-[02:08:05] [Server thread/INFO] [FML]: Unloading dimension 7
-[02:08:07] [Thread-6/INFO] [THAUMCRAFT]: Stopping aura thread for dim -1
-[02:08:07] [Thread-7/INFO] [THAUMCRAFT]: Stopping aura thread for dim 1
-[02:08:07] [Thread-8/INFO] [THAUMCRAFT]: Stopping aura thread for dim 7
+[14:17:55] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 777 advancements
+[14:17:55] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 0
+[14:17:55] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@2d23e142)
+[14:17:55] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world -1
+[14:17:55] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@2d23e142)
+[14:17:55] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 1
+[14:17:55] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@2d23e142)
+[14:17:55] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 7
+[14:17:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[14:17:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 26%
+[14:17:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.820s)! For help, type "help" or "?"
+[14:17:59] [Thread-5/INFO] [THAUMCRAFT]: Starting aura thread for dim 0
+[14:17:59] [Thread-6/INFO] [THAUMCRAFT]: Starting aura thread for dim -1
+[14:17:59] [Thread-7/INFO] [THAUMCRAFT]: Starting aura thread for dim 1
+[14:17:59] [Thread-8/INFO] [THAUMCRAFT]: Starting aura thread for dim 7
+[14:17:59] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -1
+[14:17:59] [Server thread/INFO] [FML]: Unloading dimension -1
+[14:17:59] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 1
+[14:17:59] [Server thread/INFO] [FML]: Unloading dimension 1
+[14:17:59] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 7
+[14:17:59] [Server thread/INFO] [FML]: Unloading dimension 7
+[14:18:01] [Thread-6/INFO] [THAUMCRAFT]: Stopping aura thread for dim -1
+[14:18:01] [Thread-7/INFO] [THAUMCRAFT]: Stopping aura thread for dim 1
+[14:18:01] [Thread-8/INFO] [THAUMCRAFT]: Stopping aura thread for dim 7
+[14:19:24] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[14:19:24] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 38 mods : minecraft@1.12.2,varodd@5.2,mowziesmobs@1.5.8,ambientsounds@3.0,openterraingenerator@v9.4,baubles@1.5.2,mca@6.1.0,creativecoredummy@1.0.0,creativecore@1.10.0,biomebundle@5.1,jei@4.15.0.297,reccomplex@1.4.8.2,worleycaves@1.5.2,rpgloot@1.0,astikorcarts@1.12.2-0.1.2.8,movingworld@1.12-6.353,betternether@0.1.8.6,ivtoolkit@1.3.3-1.12,roguelike@1.8.0,com.elytradev.movingworld.common.asm.coremod@,mcp@9.42,journeymap@1.12.2-5.7.1,otgcore@1.12.2-v9.4,betteranimals@5.5.0,sereneseasons@1.2.18,FML@8.0.99.99,betteranimalsplus@7.1.1,davincisvessels@@DVESSELSVER@,llibrary@1.7.9,srparasites@1.9.4,grimoireofgaia@1.7.2,iceandfire@1.9.1,waila@1.8.26,thaumcraft@6.1.BETA26,forge@14.23.5.2860,ruins@17.2,twilightforest@3.11.1021,mobends@1.2.1
+[14:19:24] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[14:19:25] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[14:19:25] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: KnnabizDev[/100.86.167.67:53889] logged in with entity id 250 at (17.5, 71.0, 82.5)
+[14:19:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: KnnabizDev joined the game
+[14:19:25] [Server thread/INFO] [Waila]: Player EntityPlayerMP['KnnabizDev'/250, l='world', x=17.50, y=71.00, z=82.50] connected. Sending ping
+[14:19:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: KnnabizDev has made the advancement [Ice and Fire]
+[14:19:26] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class gaia.entity.monster.EntityGaiaMinotaurus from class gaia.entity.monster.EntityGaiaOrc
+[14:20:46] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2295ms behind, skipping 45 tick(s)
+[14:27:05] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: KnnabizDev lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[14:27:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: KnnabizDev left the game
